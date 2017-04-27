@@ -1,0 +1,50 @@
+{
+    "manifest_version": 2,
+    "name": "JARVIS",
+    "description": "The Basement MediaWorks web assistant.",
+    "version": "1.0",
+    "icons": {
+        "16": "/assets/img/16x16.png",
+        "64": "/assets/img/64x64.png",
+        "128": "/assets/img/128x128.png"
+    },
+
+    "permissions": [
+        "tabs",
+        "chrome://favicon/",
+        "http://*/*",
+        "https://*/*",
+        "storage"
+    ],
+
+    "background" : {
+        "scripts" : [
+            "/assets/js/jquery-1.11.1.min.js",
+            "/assets/js/popup.js",
+            "/assets/js/background.js"
+        ]
+    },
+
+    "browser_action": {
+        "default_title": "JARVIS",
+        "default_icon": "assets/img/128x128.png",
+        "default_popup": "assets/html/popup.html"
+    },
+
+    "content_scripts": [ {
+        "js": [
+            "/assets/js/jquery-1.11.1.min.js",
+            "/assets/js/content_script.js"
+        ],
+        "css": [
+            "/assets/css/JARVIS_custom.css"
+        ],
+        "matches": [
+            "http://*/*",
+            "https://*/*"
+        ]
+    }],
+    "web_accessible_resources": [
+        "/assets/html/*.*"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "profiles" :[
+    {
+        "TITLE": "1st Ohio Battery",
+        "SITE_URL": "https://www.1stohiobattery.com",
+        "ARTICLE_EDIT_URL" : "https://www.1stohiobattery.com/node/add/article",
+        "AMAZON_AFFILIATE_ID" : "elevenwarri-20",
+        "FANATICS_AFFILIATE_ID" : "210111",
+        "HOMAGE_AFFILIATE_ID" : "210111"
+    },
+    {
+        "TITLE": "Eleven Warriors",
+        "SITE_URL": "http://www.elevenwarriors.com",
+        "ARTICLE_EDIT_URL" : "http://www.elevenwarriors.com/node/add/article",
+        "AMAZON_AFFILIATE_ID" : "elevenwarri-20",
+        "FANATICS_AFFILIATE_ID" : "176302",
+        "HOMAGE_AFFILIATE_ID" : "176302"
+    },
+    {
+        "TITLE": "Go Iowa Awesome",
+        "SITE_URL": "http://www.goiowaawesome.com",
+        "ARTICLE_EDIT_URL" : "http://www.goiowaawesome.com/node/add/article",
+        "AMAZON_AFFILIATE_ID" : "iowaawesome-20",
+        "FANATICS_AFFILIATE_ID" : "201019",
+        "HOMAGE_AFFILIATE_ID" : "201019"
+    },
+    {
+        "TITLE": "Roar Lions Roar",
+        "SITE_URL": "http://www.roarlionsroar.com",
+        "ARTICLE_EDIT_URL" : "http://www.roarlionsroar.com/node/add/article",
+        "AMAZON_AFFILIATE_ID" : "roarlionsroar-20",
+        "FANATICS_AFFILIATE_ID" : "201015",
+        "HOMAGE_AFFILIATE_ID" : "176302"
+    }
+  ]
+}

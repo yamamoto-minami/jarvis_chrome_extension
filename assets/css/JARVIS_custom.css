@@ -1,0 +1,94 @@
+/*
+
+College Navy:   #024
+Action Green:   #69BE28
+
+White:          #FFF
+Wolf Gray:      #A5ACAF
+Dark Gray:      #777
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+#table-grabber-form {
+	position: fixed;
+	right: 0;
+	width: 400px;
+	height: 400px;
+	top: 40%;
+	margin-top: -150px;
+	z-index: 999999999999;
+	padding: 20px;
+	background-color: #024;
+	border: solid 3px #A5ACAF;
+}
+
+#table-grabber-form #header {
+	padding: 5px 0;
+	font-family: 'Open Sans', Helvetica, Tahoma, Arial, Sans-Serif;
+}
+	#table-grabber-form .header .logo-title {
+		float: left;
+		color: #fff;
+		text-align: left;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	#table-grabber-form .header #close-box {
+		float: right;
+		color: #A5ACAF;
+		font-size: 11px;
+		font-weight: normal;
+		font-style: normal;
+	}
+	#table-grabber-form .header .jarvis-pop-close {
+		color: #fff;
+		cursor: pointer;
+		opacity: 1;
+		font-size: 11px;
+		text-transform: uppercase;
+		font-weight: normal;
+		font-style: normal;
+	}
+	#table-grabber-form .description {
+		clear: both;
+		padding: 10px 0;
+        color: #A5ACAF;
+        font-size: 12px;
+	}
+	#table-grabber-form .content {
+		padding: 15px 0;
+	}
+	#table-grabber-form #txtTableCode {
+		width: 100%;
+		height: 200px;
+		color: #333;
+		font-family: monospace, Sans-Serif;
+		font-size: 11px;
+	}
+	#table-grabber-form #btnCopy {
+	    display: block;
+	    padding: 6px 10px;
+	    background-color: #69BE28;
+	    color: #fff;
+	    border: 0;
+	    outline: none!important;
+	    font-size: 14px;
+	    font-weight: bold;
+	}
+	#table-grabber-form #btnCopy[disabled] {
+	    background-color: #A5ACAF;
+	    color: #ccc;
+	}
+
+
+
+
+.table-overlay {
+	position: absolute;
+	background: yellow;
+	opacity: 0.4;
+	z-index: 1;
+	cursor: pointer;
+}
